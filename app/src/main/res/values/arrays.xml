@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="countries">
+        <item>Nigeria</item>
+        <item>Norway</item>
+        <item>Sweden</item>
+        <item>Apple</item>
+        <item>Mac</item>
+        <item>Finland</item>
+        <item>Germany</item>
+    </string-array>
+    <string-array name="menu">
+        <item>Edit</item>
+        <item>Delete</item>
+        <item>Send</item>
+    </string-array>
+</resources>
