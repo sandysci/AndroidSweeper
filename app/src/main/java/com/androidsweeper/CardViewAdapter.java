@@ -73,7 +73,7 @@ public class CardViewAdapter extends RecyclerView.Adapter<CardViewAdapter.CardVi
     @Override
     public void onBindViewHolder(final CardViewHolder holder, int position) {
         holder.countryPhoto.setImageBitmap(decodeSampledBitmapFromFile(mylist.get(position).getPath(), 100, 100));
-        holder.imagecheckbox.setVisibility(mylist.get(holder.getAdapterPosition()).isVisible() ? View.VISIBLE : View.GONE);
+       // holder.imagecheckbox.setVisibility(mylist.get(holder.getAdapterPosition()).isVisible() ? View.VISIBLE : View.GONE);
 
         //in some cases, it will prevent unwanted situations
         holder.imagecheckbox.setOnCheckedChangeListener(null);
